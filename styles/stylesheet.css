@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 0;
+  padding: 0;
+  margin: 0;
+}
+header {
+  grid-column: 1 / 4;
+  padding: 2em;
+  color: #ffffff;
+  background: #009999 url("../images/banner-image.jpg") center no-repeat;
+}
+nav {
+  grid-column: 1 / 4;
+  padding: 2em;
+  color: #000000;
+  background-color: #d9d9d9;
+}
+.one {
+  grid-column: 1 / 2;
+  padding: 2em 1em 2em 3em;
+}
+.two {
+  padding: 2em 1em 2em 1em;
+  grid-column: 2 / 3;
+}
+footer {
+  grid-column: 1 / 4;
+  display: flex;
+  padding: 2em 1em 3em 1em;
+  color: #ffffff;
+  background: #333333 url("../images/footer-image.jpg") center no-repeat;
+  align-items: center;
+  flex-flow: column wrap;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  font-style: italic;
+  font-stretch: condensed;
+}
+.nav {
+  padding: 1em;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+a:link {
+  color: #009999;
+  font-weight: bold;
+}
+nav > a:link {
+  color: #000000;
+}
+footer > p > a:link {
+  color: #ffffff;
+}
+a:hover {
+  background-color: #009999;
+  color: #ffffff;
+}
+a:visited {
+  color: #004d4d;
+}
+aside {
+  float: right;
+  padding: 0 0 0 1em;
+}
+article {
+  padding-bottom: 1.5em;
+}
+span {
+  color: #00b3b3;
+}
+.quote {
+  color: #00b3b3;
+  font-size: 1.3em;
+  padding-bottom: 1.5em;
+  line-height: 150%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 1em 1em 1em 0;
+}
+figcaption {
+  font-style: italic;
+  font-size: .8em;
+}
+.thumbnail:hover {
+  background-color: #009999;
+}
+.thumbnail {
+  padding: .4em;
+}
+.fnav {
+  padding: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  align-self:
+}
