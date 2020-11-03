@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  grid-template-columns: 50% 30% 20%;
+  grid-template-columns: 55% 35% 10%;
   grid-template-rows: auto auto auto auto;
   grid-gap: 0;
   padding: 0;
@@ -9,22 +9,22 @@ body {
 }
 header {
   grid-column: 1 / 4;
-  padding: 2em;
+  padding: 2em 2em 2em 4em;
   color: #ffffff;
   background: #009999 url("../images/banner-image.jpg") center no-repeat;
 }
 nav {
   grid-column: 1 / 4;
-  padding: 2em;
+  padding: 2em 2em 2em 5em;
   color: #000000;
   background-color: #d9d9d9;
 }
 .one {
   grid-column: 1 / 2;
-  padding: 2em 1em 2em 3em;
+  padding: 4em 2em 2em 6em;
 }
 .two {
-  padding: 2em 1em 2em 1em;
+  padding: 4em 0 2em 4em;
   grid-column: 2 / 3;
 }
 footer {
@@ -37,12 +37,15 @@ footer {
   flex-flow: column wrap;
 }
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: italic;
-  font-stretch: condensed;
+
+}
+h3 {
+  line-height: 150%;
 }
 .nav {
   padding: 1em;
@@ -67,6 +70,12 @@ a:hover {
 a:visited {
   color: #004d4d;
 }
+nav > a:visited {
+  color: #000000;
+}
+footer > p > a:visited {
+  color: #ffffff;
+}
 aside {
   float: right;
   padding: 0 0 0 1em;
@@ -76,6 +85,10 @@ article {
 }
 span {
   color: #00b3b3;
+}
+p {
+  font-size: .9em;
+  line-height: 150%;
 }
 .quote {
   color: #00b3b3;
@@ -88,7 +101,7 @@ img {
   height: auto;
 }
 figure {
-  margin: 1em 1em 1em 0;
+  margin: 1em 1em 2em 0;
 }
 figcaption {
   font-style: italic;
