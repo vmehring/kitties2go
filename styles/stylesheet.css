@@ -27,7 +27,7 @@ main {
   display: block;
   margin: 2em;
   border: 0;
-  padding: 4em 3em 4em 8em;
+  padding: 4em 3em 4em 7em;
 }
 .right-column {
   grid-column: 2 / 3;
@@ -54,6 +54,9 @@ h2 {
 }
 h3 {
   line-height: 150%;
+}
+.hidden {
+  display: none;
 }
 .nav {
   padding: 1em;
