@@ -27,14 +27,14 @@ main {
   display: block;
   margin: 2em;
   border: 0;
-  padding: 4em 3em 4em 7em;
+  padding: 4em 6% 4em 12%;
 }
 .right-column {
   grid-column: 2 / 3;
   display: block;
   margin: 2em;
   border: 0;
-  padding: 4em 8em 4em 2em;
+  padding: 4em 15% 4em 6%;
 }
 footer {
   display: flex;
